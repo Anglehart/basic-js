@@ -22,7 +22,6 @@ const chainMaker = {
   },
   finishChain() {
     let result = '( ' + this.chain.join(' )~~( ') + ' )';
-    console.log(result);
     this.chain = [];
     return result;
   }
